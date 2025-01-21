@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Documentation - MavenTech </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <!-- Le styles -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" />
+        <link href="assets/google-code-prettify/prettify.css" rel="stylesheet" />
+        <link href="assets/css/docs.css" rel="stylesheet" />
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" />
+        <style>
+            .pluginwrap { display:none; } 
+            .pluginwrapActive { display:block; }
+        </style>
+    </head>
+    <body>
+        <!-- Subhead
+            ================================================== -->
+        <header class="jumbotron subhead">
+            <div class="container container-narrow">
+                <h1>MavenTech - Pharmacy Management Application</h1>
+                <p class="lead">Documentation For MavenTech App</p>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div class="well intro-text">
+                        <h3>Thank You So Much for Purchasing MavenTech Pharmacy Management Application!</h3>
+                        <p>
+                            If you have any questions that are beyond the scope of this help file, please email us at - info@MavenTechnology.net</p>
+                        <p>Author: <a href="https://maventechnology.net/" target='_blank'>Maven Tech (U) Ltd</a><br>
+                         
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:20px;margin-bottom:20px">
+                <div class="span12">
+                    <table class="table table-bordered table-striped">
+                        <tbody>
+                            <tr>
+                              <td><h4>Table of Contents:</h4>
+                                <ul class="menu">
+                                  <li><a href="javascript:;" class="clickable" data-section="#getting-started">1. Get started with Maventech</a></li>
+                                  <li><a href="javascript:;" class="clickable" data-section="#installing">2. Installing Maventech</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#troubleshooting">3. General Settings</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#contacts">4. System users</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#invoicing">5. Customers</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#recurring">6. Suppliers</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#reminders">7. Accounts</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#products">8. Medicine Master List</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#accounts">9. Add Stock</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#transactions">10. Purchase History</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#general_settings">11. Stock Monitoring</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#localisation">12. Expiries</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#users">13. Point of Sale (POS)</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#gateways">14. Invoicing</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#methods">15. Expenditures</a></li>
+                                   <li><a href="javascript:;" class="clickable" data-section="#reports">16. Reports</a></li>    
+                                   <li><a href="javascript:;" class="clickable" data-section="#end">17. The End </a></li>
+
+
+
+
+                                </ul>                                </td>
+                            </tr>
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span12">
+                    <section id="getting-started">
+                        <div class="page-header">
+                            <h1>1. Getting Started With MavenTech</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+
+                        <h3>
+                            System Requirements
+                        </h3>
+                        <p><strong>Most current web servers with PHP &amp; MySQL installed will be capable of running Maventecha.</strong></p>
+                        <p><strong>Minimum Requirements</strong></p>
+                        <ul>
+                          <li>Linux or Windows OS</li>
+                          <li>PHP Version 5.3+
+                            <ul>
+                              <li>Both PDO &amp; MySQLi Support</li>
+                              <li>GD2 Image Library</li>
+							   </ul>
+                          </li>
+                          <li>MySQL Version 4.1.x and above</li>
+						  <li>Mozilla Firefox is the preferred browser of choice, but the system works with all uptodate browsers.</li>
+                           
+                        </ul>
+                        <p><br>
+                          
+                        </p>
+
+                    </section>
+                </div>
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="span12">
+                    <section id="installing">
+                        <div class="page-header">
+                            <h1>2. Installing Maventech</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+						
+						 <h3>Automatic Install</h3>
+                        <p>To Automaticall install the system, follow this steps-</p>
+                       
+						 1. Upload the downloaded zip file to your server in the public_html directory.<br>
+                         2. Extract the zip file.<br>
+						 3. Create a new database from your server mysql.<br>
+						 4. Point your browser to Maventech system folder&nbsp; (example: <font color='blue'>http://foldername</font>)</p>
+						 5. You should be redirected to your <font color='blue'>install.php</font> (example: http://foldername/<font color='blue'>install.php</font>) then follow the step to as shown in the images below
+						
+                         to fill up these informations with your database hostname, database name, database username and database password respectively which you have created in step 3 above.     <div>
+                          <br>
+						  <div>
+                            <div align="center"><img  src="assets/img/install1.jpg" ></div>
+                          </div>
+                        
+						<br>
+						<div>
+                            <div align="center"><img  src="assets/img/install2.jpg" ></div>
+                          </div>
+                       
+						
+						<br>
+						<div>
+                             <div align="center"><img  src="assets/img/install3.jpg" ></div>
+                          </div>
+                      
+						<br>
+						<div>
+                            <div align="center"><img  src="assets/img/install4.jpg" ></div>
+                          </div>
+                       
+						<br>
+						<p><strong>IMPORTANT:</strong> After the installation is complete, DELETE file <font color='blue'>install.php</font> in your root directory. </p>
+                         
+						<br>
+						<br>
+                        <h3>Manual Install</h3>
+                        <p>To install manually, follow this steps-</p>
+                        <p>
+						  1. Upload the downloaded zip file to your server in the public_html directory.<br>
+                          2. Extract the zip file.<br>
+						  3. Create a new database from your server mysql.<br>
+                          4. Open the file connect.php located in the uploads folder.<br>
+                          5. Fill up these informations with your database hostname, database name, database username and database password respectively which you have created in step 3. After copy the connect.php file and paste it into the root directory replacing the one already there.<br>
+                         <div>
+                          <div>
+                            <div><img  src="assets/img/setup.png" ></div>
+                          </div>
+                        </div>
+						<br>
+						 6. Import database. Database file is located here - uploads/rx_tera.sql <br>
+                       
+                         7. Now you are ready to go and browse the application.<br>
+						 
+						 Default credentials:<br>
+						 
+						 Administrator:-   user name: administrator ,   password: pass123 <br>
+						 
+						 Dispenser:-   user name: dispenser ,   password: pass123 <br>
+						 
+						 Cashier:-   user name: cashier ,   password: pass123 <br>
+						 
+						 </p>
+						 
+						 <p><strong>IMPORTANT:</strong> After loging in using the default user name and password, create your own user id and password for administrator and delete all the default users. </p>
+                         
+
+						<p><strong>Forgetting password:</strong> Since the administrator has no access to the passwords of different users, when a user forgets their password, the admin will delete the current user account and create a new one for the user. A new user name and password will be sent to user on e-mail. </p>
+                         						 
+
+                    </section>
+                </div>
+            </div>
+
+
+<div class="row">
+                <div class="span12">
+                    <section id="troubleshooting">
+                        <div class="page-header">
+                            <h1>3. General Settings </h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        
+                        <p>After loging in, go to the settings page and change the your default pharmacy settings</p>
+						
+						<div>
+                          <div>
+                            <div><img  src="assets/img/settings.jpg" ></div>
+                          </div>
+                        </div>
+						<br>
+                        <div>
+                          <div>
+                            <h3>Currency Symbol with 3-character code.</h3>
+                            <ul>
+                              <li>AED: United Arab Emirates Dirham</li>
+                              <li>AFN: Afghan Afghani</li>
+                              <li>ALL: Albanian Lek</li>
+                              <li>AMD: Armenian Dram</li>
+                              <li>ANG: Netherlands Antillean Gulden</li>
+                              <li>AOA: Angolan Kwanza</li>
+                              <li>ARS: Argentine Peso</li>
+                              <li>AUD: Australian Dollar</li>
+                              <li>AWG: Aruban Florin</li>
+                              <li>AZN: Azerbaijani Manat</li>
+                              <li>BAM: Bosnia &amp; Herzegovina Convertible Mark</li>
+                              <li>BBD: Barbadian Dollar</li>
+                              <li>BDT: Bangladeshi Taka</li>
+                              <li>BGN: Bulgarian Lev</li>
+                              <li>BIF: Burundian Franc</li>
+                              <li>BMD: Bermudian Dollar</li>
+                              <li>BND: Brunei Dollar</li>
+                              <li>BOB: Bolivian Boliviano</li>
+                              <li>BRL: Brazilian Real</li>
+                              <li>BSD: Bahamian Dollar</li>
+                              <li>BWP: Botswana Pula</li>
+                              <li>BZD: Belize Dollar</li>
+                              <li>CAD: Canadian Dollar</li>
+                              <li>CDF: Congolese Franc</li>
+                              <li>CHF: Swiss Franc</li>
+                              <li>CLP: Chilean Peso</li>
+                              <li>CNY: Chinese Renminbi Yuan</li>
+                              <li>COP: Colombian Peso</li>
+                              <li>CRC: Costa Rican Colón</li>
+                              <li>CVE: Cape Verdean Escudo</li>
+                              <li>CZK: Czech Koruna</li>
+                              <li>DJF: Djiboutian Franc</li>
+                              <li>DKK: Danish Krone</li>
+                              <li>DOP: Dominican Peso</li>
+                              <li>DZD: Algerian Dinar</li>
+                              <li>EEK: Estonian Kroon</li>
+                              <li>EGP: Egyptian Pound</li>
+                              <li>ETB: Ethiopian Birr</li>
+                              <li>EUR: Euro</li>
+                              <li>FJD: Fijian Dollar</li>
+                              <li>FKP: Falkland Islands Pound</li>
+                              <li>GBP: British Pound</li>
+                              <li>GEL: Georgian Lari</li>
+                              <li>GIP: Gibraltar Pound</li>
+                              <li>GMD: Gambian Dalasi</li>
+                              <li>GNF: Guinean Franc</li>
+                              <li>GTQ: Guatemalan Quetzal</li>
+                              <li>GYD: Guyanese Dollar</li>
+                              <li>HKD: Hong Kong Dollar</li>
+                              <li>HNL: Honduran Lempira</li>
+                              <li>HRK: Croatian Kuna</li>
+                              <li>HTG: Haitian Gourde</li>
+                              <li>HUF: Hungarian Forint</li>
+                              <li>IDR: Indonesian Rupiah</li>
+                              <li>ILS: Israeli New Sheqel</li>
+                              <li>INR: Indian Rupee</li>
+                              <li>ISK: Icelandic Króna</li>
+                              <li>JMD: Jamaican Dollar</li>
+                              <li>JPY: Japanese Yen</li>
+                              <li>KES: Kenyan Shilling</li>
+                              <li>KGS: Kyrgyzstani Som</li>
+                              <li>KHR: Cambodian Riel</li>
+                              <li>KMF: Comorian Franc</li>
+                              <li>KRW: South Korean Won</li>
+                              <li>KYD: Cayman Islands Dollar</li>
+                              <li>KZT: Kazakhstani Tenge</li>
+                              <li>LAK: Lao Kip</li>
+                              <li>LBP: Lebanese Pound</li>
+                              <li>LKR: Sri Lankan Rupee</li>
+                              <li>LRD: Liberian Dollar</li>
+                              <li>LSL: Lesotho Loti</li>
+                              <li>LTL: Lithuanian Litas</li>
+                              <li>LVL: Latvian Lats</li>
+                              <li>MAD: Moroccan Dirham</li>
+                              <li>MDL: Moldovan Leu</li>
+                              <li>MGA: Malagasy Ariary</li>
+                              <li>MKD: Macedonian Denar</li>
+                              <li>MNT: Mongolian Tögrög</li>
+                              <li>MOP: Macanese Pataca</li>
+                              <li>MRO: Mauritanian Ouguiya</li>
+                              <li>MUR: Mauritian Rupee</li>
+                              <li>MVR: Maldivian Rufiyaa</li>
+                              <li>MWK: Malawian Kwacha</li>
+                              <li>MXN: Mexican Peso</li>
+                              <li>MYR: Malaysian Ringgit</li>
+                              <li>MZN: Mozambican Metical</li>
+                              <li>NAD: Namibian Dollar</li>
+                              <li>NGN: Nigerian Naira</li>
+                              <li>NIO: Nicaraguan Córdoba</li>
+                              <li>NOK: Norwegian Krone</li>
+                              <li>NPR: Nepalese Rupee</li>
+                              <li>NZD: New Zealand Dollar</li>
+                              <li>PAB: Panamanian Balboa</li>
+                              <li>PEN: Peruvian Nuevo Sol</li>
+                              <li>PGK: Papua New Guinean Kina</li>
+                              <li>PHP: Philippine Peso</li>
+                              <li>PKR: Pakistani Rupee</li>
+                              <li>PLN: Polish Złoty</li>
+                              <li>PYG: Paraguayan Guaraní</li>
+                              <li>QAR: Qatari Riyal</li>
+                              <li>RON: Romanian Leu</li>
+                              <li>RSD: Serbian Dinar</li>
+                              <li>RUB: Russian Ruble</li>
+                              <li>RWF: Rwandan Franc</li>
+                              <li>SAR: Saudi Riyal</li>
+                              <li>SBD: Solomon Islands Dollar</li>
+                              <li>SCR: Seychellois Rupee</li>
+                              <li>SEK: Swedish Krona</li>
+                              <li>SGD: Singapore Dollar</li>
+                              <li>SHP: Saint Helenian Pound</li>
+                              <li>SLL: Sierra Leonean Leone</li>
+                              <li>SOS: Somali Shilling</li>
+                              <li>SRD: Surinamese Dollar</li>
+                              <li>STD: São Tomé and Príncipe Dobra</li>
+                              <li>SVC: Salvadoran Colón</li>
+                              <li>SZL: Swazi Lilangeni</li>
+                              <li>THB: Thai Baht</li>
+                              <li>TJS: Tajikistani Somoni</li>
+                              <li>TOP: Tongan Paʻanga</li>
+                              <li>TRY: Turkish Lira</li>
+                              <li>TTD: Trinidad and Tobago Dollar</li>
+                              <li>TWD: New Taiwan Dollar</li>
+                              <li>TZS: Tanzanian Shilling</li>
+                              <li>UAH: Ukrainian Hryvnia</li>
+                              <li>UGX: Ugandan Shilling</li>
+                              <li>USD: United States Dollar</li>
+                              <li>UYU: Uruguayan Peso</li>
+                              <li>UZS: Uzbekistani Som</li>
+                              <li>VND: Vietnamese Đồng</li>
+                              <li>VUV: Vanuatu Vatu</li>
+                              <li>WST: Samoan Tala</li>
+                              <li>XAF: Central African Cfa Franc</li>
+                              <li>XCD: East Caribbean Dollar</li>
+                              <li>XOF: West African Cfa Franc</li>
+                              <li>XPF: Cfp Franc</li>
+                              <li>YER: Yemeni Rial</li>
+                              <li>ZAR: South African Rand</li>
+                              <li>ZMW: Zambian Kwacha</li>
+                            </ul>
+                          </div>
+                        </div>
+                        
+                        <p>&nbsp;</p>
+
+
+                    </section>
+                </div>
+          </div>
+
+          <div class="row">
+                <div class="span12">
+                    <section id="contacts">
+                        <div class="page-header">
+                            <h1>4. System users</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <div>
+                          <div>
+						  <h3>New Users</h3>
+                                        <p><strong>Add New Users:</strong> To Add New User Navigate to System Users -&gt; And fill out the form </p>
+                                        <p>&nbsp;</p>
+
+                            <p><strong>Note:</strong> 
+							
+							Take note to select the appropriate user level when creating the different user account i.e <br>
+							
+							Select  1 for Administrator<br>
+							
+							Select  2 for Dispenser<br>
+							
+							Select  3 for Cashier.
+							</p>
+                            <p>After creating an account for the different users, an atomated E-mail with the user name and password will be sent to the account owner. If they can't see it in the inbox,have them check the SPAM folder.</p>
+
+						   
+						   <div>
+                          <div>
+                            <div><img  src="assets/img/users.png" ></div>
+                          </div>
+                        </div>
+                            <p>&nbsp;</p>
+							
+							
+
+                          </div>
+                        </div>
+                       
+                       
+                    </section>
+                    
+
+                    
+                    
+                    
+              </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="invoicing">
+                        <div class="page-header">
+                            <h1>5. Customers</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <div>
+                            <div>
+
+                                <div>
+                                    <div>
+                                        <h3>New Customers</h3>
+                                        <p><strong>Add New Customer:</strong> To Add New Customer Navigate to Customers -&gt; And fill out the form </p>
+                                        <p>&nbsp;</p>
+										
+										<p> This section is intended to capture any customer information that you might want to remember in the future. </p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                       <div><img  src="assets/img/customers.png" ></div>
+                                    </div>
+                                </div>
+                                
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="recurring">
+                        <div class="page-header">
+                            <h1>6. Suppliers</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <div>
+                          <div>
+                            <p><strong>To Create your suppliers, Navigate to Suppliers (Arrow 1) -&gt; and fillout the form. To edit or delete suppliers, click the repective buttons and adjust accordingly.</strong></p>
+                           <p>If you make payment additional payment to the supplier, click update  and add the new payment accordingly.</p>
+                          
+						   <p>&nbsp;</p>
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <div><img  src="assets/img/suppliers.png" ></div>
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <p>&nbsp;</p>
+                            <p><strong>(Arrow 3)</strong>  </p>
+                            <p>At this section you, whenever  you receive a consignment  just get the total on the delivery note and record the total amount and if you have paid any amount to the supplier also  record that.</p>
+                 
+                            <p><strong>(Arrow 2)</strong>  </p>
+                            <p>This section is useful to track how cumulative payments payed to suppliers.</p>
+                          <div>
+                          <div>
+                            <div><img  src="assets/img/supplier2.png" ></div>
+                          </div>
+                        </div>
+						  </div>
+                        </div>
+                        <h3>&nbsp;</h3>
+						
+
+                    </section>
+                </div>
+            </div>
+          <div class="row">
+                <div class="span12">
+                    <section id="reminders">
+                        <div class="page-header">
+                            <h1>7. Accounts</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <div>
+                          <div>
+                            <h3><strong>Create Bank Accounts</strong></h3>
+                            <p>Accounts are how you keep track of your bank accounts so for any money that is taken out of the pharmacy either being banked or taken by the ower, these is where it is recorded. Create a bank account to track where the money is being deposited.</p>
+                            <p>&nbsp;</p>
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                           <div><img  src="assets/img/accounts.png" ></div>
+                          </div>
+                        </div>
+                       
+                       
+                        <p>&nbsp;</p>
+                    </section>
+              </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                  <section id="products">
+                    <div class="page-header">
+                            <h1>8. Medicine Master List</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                      </div>
+                      <div>
+                        <div>
+                          <p><strong>Medicine List:</strong> The system comes with a medicine master list of over 1500 brands with the intention of not having to type medicine names every time a consignment arrives. However the list may not applicable to many countries that is why there is an option to add, delete or edit medicines on to the master list. </p>
+                          
+                          <p>&nbsp;</p>
+                        </div>
+                      </div>
+                      <div>
+                        <div>
+                                <div><img  src="assets/img/medicinelist.png" ></div>
+                        </div>
+                      </div>
+                     
+                      <p>&nbsp;</p>
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="accounts">
+                        <div class="page-header">
+                            <h1>9. Add Stock</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p>
+                            Maventech has a multiple medicine upload system with the ability to add as many rows as necesary with the medicine auto fill feature. Just type the first few characters of the brand name and a list will drop down.
+							Select the desired out medicine trade name and the generic name will be auto filled.
+                        </p>
+						
+						 <div>
+                        <div>
+                                <div><img  src="assets/img/add.jpg" ></div>
+                        </div>
+                      </div>
+                      
+                        <p>&nbsp;</p>
+                        <p>
+                            <strong>Step 1: </strong>Press 1 to toggle the side bar on and off to get more working space<br><br>
+                            <strong>Step 2: </strong> Type the first few characters of the medicine brand and a drop down will show up, then make your selection.Fill the rest to the fields accordingly. You can copy and paste the supplier in all the rows. Medicines are entered in their smallest units ie tablets, bottles and <strong>NOT</strong> packets or boxes. For example if you receive 10 packets of Amoxicilling caps 250mg and each packet is 100 capsules, therefor the quantity received is 10 X 100 = 1000. With this in mind, also the prices have to be calculated and input into the system per tablet. <br><br>
+							The only expeption is for items which are sold as a pack or a dose those can be in put as number of packets. For example you receive 50 packets of Azithromycin 500mg  each with 3 tablets,since each pack is sold as a single dose then quantity received = 50.<br><br>
+							<strong>Step 3: (IMPORTANT) </strong> Take note of the expiry date format, it strictly needs to be YEAR-MONTH-DAY i.e 2019-08-30. Normally set day to the last of the month. ie 30 for other months and 28 for February.<br><br>
+							<strong>Step 4: </strong>After entering all the details, and cross checking to verify the information, go ahead and save.
+
+                      </p>
+
+                       
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="transactions">
+                        <div class="page-header">
+                            <h1>10. Purchase History</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p>
+                           Reveiw the medicine purchase history where you get to view the input stock, search by typing the variables you want to capture. You can also edit and delete in put stock.
+                        </p>
+                       
+                            <br>
+                             <div><img  src="assets/img/history.png" ></div>
+
+                        
+
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="general_settings">
+                        <div class="page-header">
+                            <h1>11. Stock Monitoring</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <div>
+                          <div>
+                            <p><strong>1. Stock Levels</strong></p>
+                            <p>Here you will monitor the stock levels of the remaining balances of each item. The window gives you the remaining cumulative total for each item<br>
+							All the items highlighted in orange are the ones below the re-order level set in <a href="javascript:;" class="clickable" data-section="#troubleshooting">3. General Settings</a> above.
+							</p>
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                              <div><img  src="assets/img/monitor.png" ></div>
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <p>&nbsp;</p>
+                            <p><strong>2. Out of stock:</strong></p>
+                            <p>Click here to view all the items that have run out of stock.</p>
+                          </div>
+                        </div>
+                        
+                        <p>&nbsp;</p></section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="localisation">
+                        <div class="page-header">
+                            <h1>12. Expiries</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <div>
+                          <div>
+                           <p><strong>1. Soon Expiring:</strong> </p>
+                           
+                            <p>Maventech will give you records of items soon expiring 3 months in advance, this will be useful to help you sell medicine before they expire. You will be able to print out this report.</p>
+                            <p>&nbsp;</p>
+							
+							<p><strong>2. Expired Medicine:</strong> </p>
+                           
+                            <p>Maventech will give you records of items that have expired, this will be useful to help you remove the medicine from the shelf. You will be able to print out this report.</p>
+                            
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <div><img  src="assets/img/expiry.png" ></div>
+                          </div>
+                        </div>
+                        
+                        <p>&nbsp;</p></section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="users">
+                        <div class="page-header">
+                            <h1>13. Point of Sale</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+						<div>
+                          <div>
+                            <div><img  src="assets/img/pos.png" ></div>
+                          </div>
+                        </div>
+                          <div>
+                            <p>&nbsp;</p>
+                            <p><strong>Step 1:</strong> Click POS from the menu.</p>
+                            <p><strong>Step 2:</strong> Click select a product and type the the first few characters of either the trade or generic name to select the desired product.</p>
+                            <p><strong>Step 3:</strong> Input the quantity you want to sell. <strong> NOTE</strong> Quantity remaining because inputing a value greater than that will result in the inventory having negatives.</p>
+                            <p><strong>Step 4:</strong> This is intended to put a DISCOUNT to the selling price, the discount value is per smallest selling unit i.e per tablet. For example the selling price of paracetamol 500mg is 50, if you need to sell the medicine at 45, input 5 as the discount value.</p>
+                            <p><strong>Step 5:</strong> Click "add" to save your selection and the preview of the item selected with show up below, if the same customer wants more items to back to step 2 above until when their medicine needs are fulfilled.</p>
+							<p><strong>Step 6:</strong> If you need to backdate a sale, adjust the date accordingly every time before you select an item for sale.</p>
+							<p><strong>Step 7:</strong> In case of a mistake in the sales, you can cancel out any transaction here and create a new and correct one. </p>
+                            <p><strong>Step 8:</strong> Maventech is cofigured to work with Thermal receipt printers, therefore just go ahead to the print preview and print out a recipt. Consider disabling printer dialog pop up in your browser for quick printing.</p>
+                        </div>
+						<div>
+                          <div>
+                            <div><img  src="assets/img/receipt.png" ></div>
+                          </div>
+                        </div>
+                        <p>&nbsp;</p></section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="gateways">
+                        <div class="page-header">
+                            <h1>14. Invoicing</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <div>
+                          <div>
+                            <p><strong>Proforma Invoicing</strong></p>
+                            <p>Here you are able to create a proforma Invoice for your customers.</p>
+							<p>Go to Invoices -> Create New Invoice.</p>
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <div><img  src="assets/img/proforma.png" ></div>
+                          </div>
+                        </div>
+						<br>
+                        <div>
+                          <div>
+						   <p><strong>Step 1:</strong> The first thing to do is type in the client name as indicated in the image above</p>
+                            <p><strong>Step 2:</strong> Follow the steps laid down in <a href="javascript:;" class="clickable" data-section="#users">13. Point of Sale (POS) above.</a></p>
+							<p>Got to view invoices to veiw, print or deleted created invoices. For downloading as PDF, use external applications like <a href="http://filehippo.com/download_pdf-creator-for-windows-7/" target="_blank">Pdf Creator</a></p>
+                          </div>
+                        </div>
+                        <div>
+                          
+                        <p>&nbsp;</p></section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <section id="methods">
+                        <div class="page-header">
+                            <h1>15. Expenditures</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p>To Add Edit Expenses Navigate to- Expenditures.</p>
+                        <p>Please Note that, the description is intended to give more explanation on the expense that has been incurred.</p>
+						<div>
+                          <div>
+                            <div><img  src="assets/img/expenses.png" ></div>
+                          </div>
+                        </div>
+						
+						 <div>
+                          
+                        <p>&nbsp;</p>
+                </div>
+                    </section>
+                </div>
+            </div>
+            
+
+            <div class="row">
+                <div class="span12">
+                    <section id="reports">
+                        <div class="page-header">
+                            <h1>16. Reports</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p><strong>In Maventech All Reports will be generated automatically based on your transactions with the ability to be exported into Microsoft Excel.</strong></p>
+                        <p><strong>Available Reports:</strong></p>
+                 
+                        <p><strong>Sales Reports:</strong> Reports for Income with all transaction filtered by the selected date range.</p>
+                        <p><strong>Expense Reports:</strong> Reports for Expenses with all transaction filtered by the selected date range.</p>
+                        <p><strong>Income Vs Expense:</strong>  Automatically generated snapshot of your income &amp; expense, so that you can compare.</p>
+                        <p><strong>Trading Profit and Loss Accounts:</strong>Profit and loss account is one of the yearly financial statements prepared that shows the financial performance of company during an accounting period. Profit and loss account is prepared to ascertain the net profit or net loss made by the company during the accounting period. Profit and loss account is also called as income statement.</p>
+                        <p><br>
+                            <br>
+                        </p>
+
+
+
+                    </section>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="span12">
+                    <section id="end">
+                        <div class="page-header">
+                            <h1>17. The End</h1>
+                            <a href="javascript:;">To top <i class="icon-arrow-up"></i></a>
+                        </div>
+                        <p>
+                            Thank you for purchasing Maventech Pharmacy management Application. I hope you will enjoy using this application. For customisations, contact us at info@teratechuganda.com
+                            <br>
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- END -->
+        <footer class="footer">
+            <div class="container container-narrow">
+                <p>Maventech - Pharmacy Management Application. Built by <a href="http://teratechuganda.com" target="_blank">Tera Tech (U) Ltd</a>
+            </div>
+        </footer>
+        <!-- Le javascript
+            ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery-1.8.3.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/google-code-prettify/prettify.js"></script>
+        <script src="assets/js/application.js"></script>
+    </body>
+</html

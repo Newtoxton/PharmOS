@@ -1,0 +1,104 @@
+				<html xmlns:o="urn:schemas-microsoft-com:office:office"
+				xmlns:x="urn:schemas-microsoft-com:office:excel"
+				xmlns="http://www.w3.org/TR/REC-html40">
+
+				<head>
+				<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+				<meta name=ProgId content=Excel.Sheet>
+				<!--[if gte mso 9]><xml>
+				 <o:DocumentProperties>
+				  <o:LastAuthor>Sriram</o:LastAuthor>
+				  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+				  <o:Version>10.2625</o:Version>
+				 </o:DocumentProperties>
+				 <o:OfficeDocumentSettings>
+				  <o:DownloadComponents/>
+				 </o:OfficeDocumentSettings>
+				</xml><![endif]-->
+				<style>
+				<!--table
+					{mso-displayed-decimal-separator:"\.";
+					mso-displayed-thousand-separator:"\,";}
+				@page
+					{margin:1.0in .75in 1.0in .75in;
+					mso-header-margin:.5in;
+					mso-footer-margin:.5in;}
+				tr
+					{mso-height-source:auto;}
+				col
+					{mso-width-source:auto;}
+				br
+					{mso-data-placement:same-cell;}
+				.style0
+					{mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					white-space:nowrap;
+					mso-rotate:0;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					border:none;
+					mso-protection:locked visible;
+					mso-style-name:Normal;
+					mso-style-id:0;}
+				td
+					{mso-style-parent:style0;
+					padding-top:1px;
+					padding-right:1px;
+					padding-left:1px;
+					mso-ignore:padding;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					border:none;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					mso-protection:locked visible;
+					white-space:nowrap;
+					mso-rotate:0;}
+				.xl24
+					{mso-style-parent:style0;
+					white-space:normal;}
+				-->
+				</style>
+				<!--[if gte mso 9]><xml>
+				 <x:ExcelWorkbook>
+				  <x:ExcelWorksheets>
+				   <x:ExcelWorksheet>
+					<x:Name>srirmam</x:Name>
+					<x:WorksheetOptions>
+					 <x:Selected/>
+					 <x:ProtectContents>False</x:ProtectContents>
+					 <x:ProtectObjects>False</x:ProtectObjects>
+					 <x:ProtectScenarios>False</x:ProtectScenarios>
+					</x:WorksheetOptions>
+				   </x:ExcelWorksheet>
+				  </x:ExcelWorksheets>
+				  <x:WindowHeight>10005</x:WindowHeight>
+				  <x:WindowWidth>10005</x:WindowWidth>
+				  <x:WindowTopX>120</x:WindowTopX>
+				  <x:WindowTopY>135</x:WindowTopY>
+				  <x:ProtectStructure>False</x:ProtectStructure>
+				  <x:ProtectWindows>False</x:ProtectWindows>
+				 </x:ExcelWorkbook>
+				</xml><![endif]-->
+				</head>
+
+				<body link=blue vlink=purple>
+				<table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 >Sales Report</td></tr><tr><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Date</td><td class=xl24 width=64 >Entrant</td><td class=xl24 width=64 >Payment type</td><td class=xl24 width=64 >Description</td><td class=xl24 width=64 >Total bill</td><td class=xl24 width=64 >Amount paid</td></tr><tr><td class=xl24 width=64 >10/31/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >PHARMACIST 1500000, RENT 1469000TRANSPORT 6000, ALLOWANCES 27000</td><td class=xl24 width=64 >3002000</td><td class=xl24 width=64 >3002000</td></tr><tr><td class=xl24 width=64 >10/30/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >PURCASE ABC 952000, REGISTRATION 276000, RENT 31000</td><td class=xl24 width=64 >1259000</td><td class=xl24 width=64 >1259000</td></tr><tr><td class=xl24 width=64 >10/30/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >CASH PURCHASE 197100, PETER 10000, YVONNE 10000, GALENDA 7000</td><td class=xl24 width=64 >224100</td><td class=xl24 width=64 >224100</td></tr><tr><td class=xl24 width=64 >10/29/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >PETER 10000, YVONNE 10000, JIBU 5000</td><td class=xl24 width=64 >25000</td><td class=xl24 width=64 >25000</td></tr><tr><td class=xl24 width=64 >10/28/2017</td><td class=xl24 width=64 >joseph</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >CASH PURCHASES 571,500, POLYTHENE BAGS 25,000, TRANSPORT 6,000, PETER 10,000, GALENDA 10,000, WINNIE 10,000, JOSEPH 10,000</td><td class=xl24 width=64 >639500</td><td class=xl24 width=64 >639500</td></tr><tr><td class=xl24 width=64 >10/27/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >Zeel kit 58000, thermometrs star 15000, purcase 60000, transport 6000, peter 10000, galenda 7000, peter salary 1000000, winnie 10000</td><td class=xl24 width=64 >1706000</td><td class=xl24 width=64 >1706000</td></tr><tr><td class=xl24 width=64 >10/26/2017</td><td class=xl24 width=64 >joseph</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >cotton 70000, purchase 510200, transport 6000, rags 35000, galenda Salary 50000, peter 10000, winnie 10000, galenda 7000, winnie salary 400000</td><td class=xl24 width=64 >1066700</td><td class=xl24 width=64 >1066700</td></tr><tr><td class=xl24 width=64 >10/25/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >Yvone loan 20000, airtime 30000, purcase 105000, peter 10000, yvvone 10000, galenda 7000, transport 6000, Salary 55000</td><td class=xl24 width=64 >738000</td><td class=xl24 width=64 >738000</td></tr><tr><td class=xl24 width=64 >10/24/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >purchase 250000, transport 4000, peter loan 120000, yvone 10000, peter 10000, transport 6000, galenda 7000</td><td class=xl24 width=64 >407000</td><td class=xl24 width=64 >407000</td></tr><tr><td class=xl24 width=64 >10/23/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >Sugar 4500, Polythen bags 10000, purchase 13500, yvone 10000, peter 10000, Galenda 7000</td><td class=xl24 width=64 >55000</td><td class=xl24 width=64 >55000</td></tr><tr><td class=xl24 width=64 >10/22/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >PETER 10000, WINNIE 10000, JIBU 5000, SARAH DEBT PAYMENT 500,000/-</td><td class=xl24 width=64 >525000</td><td class=xl24 width=64 >525000</td></tr><tr><td class=xl24 width=64 >10/21/2017</td><td class=xl24 width=64 >joseph</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >PURCHASES 462,900, TRANSPORT 6,000, POLYTHENE BAGS 13,000, PETER 10,000, WINNIE 10,000, JOSEY 10,000, GALENDA 10,000</td><td class=xl24 width=64 >521900</td><td class=xl24 width=64 >521900</td></tr><tr><td class=xl24 width=64 >10/20/2017</td><td class=xl24 width=64 >joseph</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >PURCHASES 470,500, PETER 10,00, WINNIE 10,000, GALENDA 7,000</td><td class=xl24 width=64 >497500</td><td class=xl24 width=64 >497500</td></tr><tr><td class=xl24 width=64 >10/19/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >DETERMINE 44000, POLYTHEN 4500, BUZIRA 15000, DELIVERY SHEETS 8000, ABC 522500, MULE 293000, PETER 10000, WINNIE 10000, GALENDA 7000, TRANSPORT 10000</td><td class=xl24 width=64 >924000</td><td class=xl24 width=64 >924000</td></tr><tr><td class=xl24 width=64 >10/18/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >PURCHASE 771900, MEDICAL ENVELOPSE PERSONALIZED 100000, PETER 10000, GALENDA 7000, YVONNE 10000</td><td class=xl24 width=64 >898900</td><td class=xl24 width=64 >898900</td></tr><tr><td class=xl24 width=64 >10/17/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >COTTON 70000/-, TRANSPORT 6000/-, PURCHASE 350000, TRANSPORT 7000, PETER 10000, YVONNE 10000, GALENDA 7000</td><td class=xl24 width=64 >46000</td><td class=xl24 width=64 >46000</td></tr><tr><td class=xl24 width=64 >10/16/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >POLYTHEN BAGS 12000, TRANSPORT 6000, YVONNE 10000, PETERS 10000, GALENDA 7000</td><td class=xl24 width=64 >45000</td><td class=xl24 width=64 >45000</td></tr><tr><td class=xl24 width=64 >10/15/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >PETER 10000, YVONNE 10000, TRANSPORT 6000</td><td class=xl24 width=64 >26000</td><td class=xl24 width=64 >26000</td></tr><tr><td class=xl24 width=64 >10/14/2017</td><td class=xl24 width=64 >joseph</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >PETER 10,000, WINNIE 10,000, GALENDA 10,000,JOSEPH 5000</td><td class=xl24 width=64 >35000</td><td class=xl24 width=64 >35000</td></tr><tr><td class=xl24 width=64 >10/13/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >TRANSPORT 6000, PURCHASE 30000, STAR 615500, KABUUTI 225000, USUAL 27000</td><td class=xl24 width=64 >903500</td><td class=xl24 width=64 >903500</td></tr><tr><td class=xl24 width=64 >10/12/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >GREEN POLYTHENE BAGS 6500, TP 6000, BOOK 4000, BLACK 2500, PURCHASE 230000, PURCHASE 612000, TRANSPORT 5000, PURCHASE 30500</td><td class=xl24 width=64 >896500</td><td class=xl24 width=64 >896500</td></tr><tr><td class=xl24 width=64 >10/10/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >Purchase Medipharm 250000, Gama 45000, jibu 5000, Transport 10000, yvone 10000, peter 10000, galenda 7000, purchase 14300</td><td class=xl24 width=64 >351300</td><td class=xl24 width=64 >351300</td></tr><tr><td class=xl24 width=64 >10/09/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >Public Holiday 40000, Laboursuit 165000. Purchase 1907100, Transport 4000</td><td class=xl24 width=64 >2516100</td><td class=xl24 width=64 >2516100</td></tr><tr><td class=xl24 width=64 >10/11/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >Usual 27000, Transport 10000, purchase 592000</td><td class=xl24 width=64 >629000</td><td class=xl24 width=64 >629000</td></tr><tr><td class=xl24 width=64 >10/07/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >TRANSPORT 10000, PETER 10000, YVONNE 20000, WINNIE 10000, GALENDA 10000</td><td class=xl24 width=64 >60000</td><td class=xl24 width=64 >60000</td></tr><tr><td class=xl24 width=64 >10/06/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >COTTON 70000, TRANSPORT 6000, PETER 10000, WINNIE 10000, GALENDA 7000, PURCHASE & PAYMENT OF GITTOES 650000 + 16500, TRANSPORT 4000, PURCHASE MRDT 160000</td><td class=xl24 width=64 >933500</td><td class=xl24 width=64 >933500</td></tr><tr><td class=xl24 width=64 >10/08/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >PETER 10000, WINNIE 10000, TRANSPORT 6000, JIBU 5000, PURCHASE 1504000</td><td class=xl24 width=64 >1535000</td><td class=xl24 width=64 >1535000</td></tr><tr><td class=xl24 width=64 >10/05/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >Star 90000, ABC 830000 + Transport , Gama 192400, Peter 10000, Winnie 10000, Galenda 7000, Transport 6000</td><td class=xl24 width=64 >1145400</td><td class=xl24 width=64 >1145400</td></tr><tr><td class=xl24 width=64 >10/04/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >transport 6000, Piritex Jr 280000, Pyramid 500000, Transport 4000, Zithromax 300000, Yvonne 10000, Peter 10000, Galenda 7000</td><td class=xl24 width=64 >1170000</td><td class=xl24 width=64 >1170000</td></tr><tr><td class=xl24 width=64 >10/03/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >PURCHASE 160000, WATER & POWER 55000, TRANSPORT 6000, PURCHASE 700000, Transport 4000, peter 10000, yvonne 10000, galenda 7000</td><td class=xl24 width=64 >952000</td><td class=xl24 width=64 >952000</td></tr><tr><td class=xl24 width=64 >10/02/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >YVONNE 10000, PETER 10000, GALENDA 7000, PURCHASE 774000, PURCHASE 134900</td><td class=xl24 width=64 >935900</td><td class=xl24 width=64 >935900</td></tr><tr><td class=xl24 width=64 >10/01/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >NSEREKO</td><td class=xl24 width=64 >1500000</td><td class=xl24 width=64 >1500000</td></tr><tr><td class=xl24 width=64 >10/01/2017</td><td class=xl24 width=64 >Mwesigwa</td><td class=xl24 width=64 >Cash</td><td class=xl24 width=64 >Peter 10000, Yvonne 10000, JIBU  5000, WATER 300</td><td class=xl24 width=64 >25300</td><td class=xl24 width=64 >25300</td></tr>

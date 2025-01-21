@@ -1,0 +1,29 @@
+# PHP error handling for development servers
+# File modified on Tue Mar 13 12:34:20 2018 by server
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_flag display_startup_errors off
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_flag display_errors off
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_flag html_errors off
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_flag log_errors on
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_flag ignore_repeated_errors off
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_flag ignore_repeated_source off
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_flag report_memleaks on
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_flag track_errors on
+# File modified on Tue Mar 13 12:35:02 2018 by server
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_value docref_root 0
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_value docref_ext 0
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_value error_log /home/path/public_html/domain/PHP_errors.log
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_value error_reporting -1
+# For security reasons, mod_php is not used on this server. Use a php.ini file for php directives
+# php_value log_errors_max_len 0

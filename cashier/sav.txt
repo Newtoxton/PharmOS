@@ -1,0 +1,17 @@
+						   SELECT R.id,
+						   R.supplier,
+						   R.invoiceDate,
+						   R.invoiceNo,
+						   R.amount_paid,
+						   R.amount_due,
+						   R.due_date,
+						   R.notes,
+						   F.total
+
+					FROM ( SELECT id, supplier, invoiceNo, invoiceDate, SUM(amount_paid) amount_paid,
+					SUM(amount_due) amount_due, due_date, notes
+					FROM purchases
+					GROUP BY purchases.supplier) r
+						 LEFT JOIN 
+					(SELECT invoice_id, SUM(cost_price *  qty_sold) total FROM inventory GROUP BY invoice_id) f
+					ON r.id = f.invoice_id
