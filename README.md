@@ -1,5 +1,4 @@
 # PharmOS
-# Pharmacy Management System
 
 This is a web application designed for efficient pharmacy management and sales navigation. 
 
